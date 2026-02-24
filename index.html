@@ -85,11 +85,19 @@
             <nav
                 class="flex rounded-2xl items-center py-2 px-5 shadow-lg bg-opacity-10 backdrop-blur-md relative dark:border-2 dark:border-gray-800">
                 <button name="toggle-theme" id="toggle-theme"
-                    class="  font-popins-semibold text-sm flex flex-1 justify-center ">
-                     <span class="font-popins-black text-xl"></span>
+                    class="font-popins-semibold text-sm flex flex-1 justify-center">
 
-                    <span class="hidden dark:inline"> <i class="fa-solid fa-moon"></i></span> <span
-                        class="dark:hidden inline"><i class="fa-solid fa-sun"></i></span>
+                    <span class="font-popins-black text-xl"></span>
+
+                    <!-- Dark mode icon -->
+                    <span class="hidden dark:inline text-2xl">
+                        <i class="fa-solid fa-moon"></i>
+                    </span>
+
+                    <!-- Light mode icon -->
+                    <span class="dark:hidden inline text-2xl">
+                        <i class="fa-solid fa-sun"></i>
+                    </span>
                 </button>
                 <div class="flex-1 md:flex justify-around hidden">
                     <a href="#hero" class=" font-popins-semibold text-sm flex items-center justify-center">
